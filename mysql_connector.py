@@ -7,7 +7,7 @@ try:
         host='localhost',  # e.g., 'localhost'
         database='EKYC',   # Your database name
         user='root',  # Your MySQL username
-        password='kharbanda'  
+        password='XYZ'  
     )
 
     if connection.is_connected():
@@ -43,11 +43,9 @@ try:
         ('Disha Bajaj', '12453', '1', '1236586364582', 'ACFD1234DF', 'MUMBAI', 'F', '2002-09-14', NULL),
         ('Amaira Singh', '123@ams', '0', NULL, NULL, NULL, NULL, NULL, NULL),
         ('Aditya Singh', '2t34@123', '1', '127654890735', 'ADGF128754', 'GOA', 'M', '2001-09-13', NULL),
-        ('Agrim Jain', '1287535', '0', NULL, NULL, NULL, NULL, NULL, NULL),
         ('Aashi Kapoor', '45829', '0', NULL, NULL, NULL, NULL, NULL, NULL),
         ('Nandini Jain', '1256973', '0', '357488785791', NULL, 'KERELA', 'F', '2000-11-13', NULL),
         ('Nimisha Jain', '123@nimi', '0', NULL, 'ASDF1234GH', NULL, NULL, NULL, NULL),
-        ('Jashit Goel', '2342@jas', '1', '123456783435', 'ASTY12463D', 'DELHI', 'M', '2000-12-12', NULL),
         ('Diksha Sharma', '12233@ds', '0', NULL, 'ASED23435F', NULL, NULL, NULL, NULL);
         """
         cursor.execute(insert_query)
